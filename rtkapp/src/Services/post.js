@@ -1,5 +1,6 @@
 import { createApi, fetchBaseQuery } from '@reduxjs/toolkit/query/react';
 //This is new commit
+//This is third commit
 export const postApi = createApi({
     reducerPath: 'postApi', //make sure where rtk will cashe the data
     baseQuery: fetchBaseQuery({
